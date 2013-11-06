@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBB7894B1829D9B3000534F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB7894A1829D9B3000534F4 /* Foundation.framework */; };
+		DBB7894D1829D9B3000534F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB7894C1829D9B3000534F4 /* CoreGraphics.framework */; };
+		DBB7894F1829D9B3000534F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB7894E1829D9B3000534F4 /* UIKit.framework */; };
+		DBB789551829D9B3000534F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBB789531829D9B3000534F4 /* InfoPlist.strings */; };
+		DBB789571829D9B3000534F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB789561829D9B3000534F4 /* main.m */; };
+		DBB7895B1829D9B3000534F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB7895A1829D9B3000534F4 /* AppDelegate.m */; };
+		DBB7895D1829D9B3000534F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB7895C1829D9B3000534F4 /* Images.xcassets */; };
+		DBB789641829D9B3000534F4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB789631829D9B3000534F4 /* XCTest.framework */; };
+		DBB789651829D9B3000534F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB7894A1829D9B3000534F4 /* Foundation.framework */; };
+		DBB789661829D9B3000534F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB7894E1829D9B3000534F4 /* UIKit.framework */; };
+		DBB7896E1829D9B3000534F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBB7896C1829D9B3000534F4 /* InfoPlist.strings */; };
+		DBB789701829D9B3000534F4 /* CryptoWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB7896F1829D9B3000534F4 /* CryptoWalletTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBB789671829D9B3000534F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBB7893F1829D9B3000534F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBB789461829D9B3000534F4;
+			remoteInfo = CryptoWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBB789471829D9B3000534F4 /* CryptoWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB7894A1829D9B3000534F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBB7894C1829D9B3000534F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DBB7894E1829D9B3000534F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DBB789521829D9B3000534F4 /* CryptoWallet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CryptoWallet-Info.plist"; sourceTree = "<group>"; };
+		DBB789541829D9B3000534F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBB789561829D9B3000534F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBB789581829D9B3000534F4 /* CryptoWallet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CryptoWallet-Prefix.pch"; sourceTree = "<group>"; };
+		DBB789591829D9B3000534F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBB7895A1829D9B3000534F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBB7895C1829D9B3000534F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBB789621829D9B3000534F4 /* CryptoWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB789631829D9B3000534F4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DBB7896B1829D9B3000534F4 /* CryptoWalletTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CryptoWalletTests-Info.plist"; sourceTree = "<group>"; };
+		DBB7896D1829D9B3000534F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBB7896F1829D9B3000534F4 /* CryptoWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptoWalletTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBB789441829D9B3000534F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB7894D1829D9B3000534F4 /* CoreGraphics.framework in Frameworks */,
+				DBB7894F1829D9B3000534F4 /* UIKit.framework in Frameworks */,
+				DBB7894B1829D9B3000534F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB7895F1829D9B3000534F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB789641829D9B3000534F4 /* XCTest.framework in Frameworks */,
+				DBB789661829D9B3000534F4 /* UIKit.framework in Frameworks */,
+				DBB789651829D9B3000534F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBB7893E1829D9B3000534F4 = {
+			isa = PBXGroup;
+			children = (
+				DBB789501829D9B3000534F4 /* CryptoWallet */,
+				DBB789691829D9B3000534F4 /* CryptoWalletTests */,
+				DBB789491829D9B3000534F4 /* Frameworks */,
+				DBB789481829D9B3000534F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBB789481829D9B3000534F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBB789471829D9B3000534F4 /* CryptoWallet.app */,
+				DBB789621829D9B3000534F4 /* CryptoWalletTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBB789491829D9B3000534F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBB7894A1829D9B3000534F4 /* Foundation.framework */,
+				DBB7894C1829D9B3000534F4 /* CoreGraphics.framework */,
+				DBB7894E1829D9B3000534F4 /* UIKit.framework */,
+				DBB789631829D9B3000534F4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBB789501829D9B3000534F4 /* CryptoWallet */ = {
+			isa = PBXGroup;
+			children = (
+				DBB789591829D9B3000534F4 /* AppDelegate.h */,
+				DBB7895A1829D9B3000534F4 /* AppDelegate.m */,
+				DBB7895C1829D9B3000534F4 /* Images.xcassets */,
+				DBB789511829D9B3000534F4 /* Supporting Files */,
+			);
+			path = CryptoWallet;
+			sourceTree = "<group>";
+		};
+		DBB789511829D9B3000534F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBB789521829D9B3000534F4 /* CryptoWallet-Info.plist */,
+				DBB789531829D9B3000534F4 /* InfoPlist.strings */,
+				DBB789561829D9B3000534F4 /* main.m */,
+				DBB789581829D9B3000534F4 /* CryptoWallet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBB789691829D9B3000534F4 /* CryptoWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBB7896F1829D9B3000534F4 /* CryptoWalletTests.m */,
+				DBB7896A1829D9B3000534F4 /* Supporting Files */,
+			);
+			path = CryptoWalletTests;
+			sourceTree = "<group>";
+		};
+		DBB7896A1829D9B3000534F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBB7896B1829D9B3000534F4 /* CryptoWalletTests-Info.plist */,
+				DBB7896C1829D9B3000534F4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBB789461829D9B3000534F4 /* CryptoWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB789731829D9B3000534F4 /* Build configuration list for PBXNativeTarget "CryptoWallet" */;
+			buildPhases = (
+				DBB789431829D9B3000534F4 /* Sources */,
+				DBB789441829D9B3000534F4 /* Frameworks */,
+				DBB789451829D9B3000534F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoWallet;
+			productName = CryptoWallet;
+			productReference = DBB789471829D9B3000534F4 /* CryptoWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBB789611829D9B3000534F4 /* CryptoWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB789761829D9B3000534F4 /* Build configuration list for PBXNativeTarget "CryptoWalletTests" */;
+			buildPhases = (
+				DBB7895E1829D9B3000534F4 /* Sources */,
+				DBB7895F1829D9B3000534F4 /* Frameworks */,
+				DBB789601829D9B3000534F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBB789681829D9B3000534F4 /* PBXTargetDependency */,
+			);
+			name = CryptoWalletTests;
+			productName = CryptoWalletTests;
+			productReference = DBB789621829D9B3000534F4 /* CryptoWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBB7893F1829D9B3000534F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alex Doub";
+				TargetAttributes = {
+					DBB789611829D9B3000534F4 = {
+						TestTargetID = DBB789461829D9B3000534F4;
+					};
+				};
+			};
+			buildConfigurationList = DBB789421829D9B3000534F4 /* Build configuration list for PBXProject "CryptoWallet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBB7893E1829D9B3000534F4;
+			productRefGroup = DBB789481829D9B3000534F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBB789461829D9B3000534F4 /* CryptoWallet */,
+				DBB789611829D9B3000534F4 /* CryptoWalletTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBB789451829D9B3000534F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB789551829D9B3000534F4 /* InfoPlist.strings in Resources */,
+				DBB7895D1829D9B3000534F4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB789601829D9B3000534F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB7896E1829D9B3000534F4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBB789431829D9B3000534F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB7895B1829D9B3000534F4 /* AppDelegate.m in Sources */,
+				DBB789571829D9B3000534F4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB7895E1829D9B3000534F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB789701829D9B3000534F4 /* CryptoWalletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBB789681829D9B3000534F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBB789461829D9B3000534F4 /* CryptoWallet */;
+			targetProxy = DBB789671829D9B3000534F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBB789531829D9B3000534F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB789541829D9B3000534F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DBB7896C1829D9B3000534F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB7896D1829D9B3000534F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBB789711829D9B3000534F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBB789721829D9B3000534F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBB789741829D9B3000534F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CryptoWallet/CryptoWallet-Prefix.pch";
+				INFOPLIST_FILE = "CryptoWallet/CryptoWallet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DBB789751829D9B3000534F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CryptoWallet/CryptoWallet-Prefix.pch";
+				INFOPLIST_FILE = "CryptoWallet/CryptoWallet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DBB789771829D9B3000534F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CryptoWallet.app/CryptoWallet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CryptoWallet/CryptoWallet-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CryptoWalletTests/CryptoWalletTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DBB789781829D9B3000534F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CryptoWallet.app/CryptoWallet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CryptoWallet/CryptoWallet-Prefix.pch";
+				INFOPLIST_FILE = "CryptoWalletTests/CryptoWalletTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBB789421829D9B3000534F4 /* Build configuration list for PBXProject "CryptoWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB789711829D9B3000534F4 /* Debug */,
+				DBB789721829D9B3000534F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB789731829D9B3000534F4 /* Build configuration list for PBXNativeTarget "CryptoWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB789741829D9B3000534F4 /* Debug */,
+				DBB789751829D9B3000534F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBB789761829D9B3000534F4 /* Build configuration list for PBXNativeTarget "CryptoWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB789771829D9B3000534F4 /* Debug */,
+				DBB789781829D9B3000534F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBB7893F1829D9B3000534F4 /* Project object */;
+}
