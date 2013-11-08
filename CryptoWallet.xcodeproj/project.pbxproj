@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3F6C7CCAF8C440181EEDE0E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A4552F27EE43D5B99C11EB /* libPods.a */; };
 		DBB7894B1829D9B3000534F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB7894A1829D9B3000534F4 /* Foundation.framework */; };
 		DBB7894D1829D9B3000534F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB7894C1829D9B3000534F4 /* CoreGraphics.framework */; };
 		DBB7894F1829D9B3000534F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB7894E1829D9B3000534F4 /* UIKit.framework */; };
@@ -19,8 +20,8 @@
 		DBB789661829D9B3000534F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB7894E1829D9B3000534F4 /* UIKit.framework */; };
 		DBB7896E1829D9B3000534F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBB7896C1829D9B3000534F4 /* InfoPlist.strings */; };
 		DBB789701829D9B3000534F4 /* CryptoWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB7896F1829D9B3000534F4 /* CryptoWalletTests.m */; };
-		DBB7897E1829DC59000534F4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB7897D1829DC59000534F4 /* MainStoryboard.storyboard */; };
-		DBB789821829E1DE000534F4 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB789811829E1DE000534F4 /* LoginController.m */; };
+		DBFBCBFD182C869F00A1C760 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBFBCBFC182C869F00A1C760 /* MainStoryboard.storyboard */; };
+		DBFBCC01182C86BC00A1C760 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFBCC00182C86BC00A1C760 /* LoginController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39A4552F27EE43D5B99C11EB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05FDA88035E4FF092B124F8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		DBB789471829D9B3000534F4 /* CryptoWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB7894A1829D9B3000534F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DBB7894C1829D9B3000534F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,9 +53,9 @@
 		DBB7896B1829D9B3000534F4 /* CryptoWalletTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CryptoWalletTests-Info.plist"; sourceTree = "<group>"; };
 		DBB7896D1829D9B3000534F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DBB7896F1829D9B3000534F4 /* CryptoWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptoWalletTests.m; sourceTree = "<group>"; };
-		DBB7897D1829DC59000534F4 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = Storyboards/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		DBB789801829E1DE000534F4 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginController.h; path = Controllers/LoginController.h; sourceTree = "<group>"; };
-		DBB789811829E1DE000534F4 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginController.m; path = Controllers/LoginController.m; sourceTree = "<group>"; };
+		DBFBCBFC182C869F00A1C760 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = Storyboards/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DBFBCBFF182C86BC00A1C760 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginController.h; path = Controllers/LoginController.h; sourceTree = "<group>"; };
+		DBFBCC00182C86BC00A1C760 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginController.m; path = Controllers/LoginController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 				DBB7894D1829D9B3000534F4 /* CoreGraphics.framework in Frameworks */,
 				DBB7894F1829D9B3000534F4 /* UIKit.framework in Frameworks */,
 				DBB7894B1829D9B3000534F4 /* Foundation.framework in Frameworks */,
+				B3F6C7CCAF8C440181EEDE0E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +90,7 @@
 				DBB789691829D9B3000534F4 /* CryptoWalletTests */,
 				DBB789491829D9B3000534F4 /* Frameworks */,
 				DBB789481829D9B3000534F4 /* Products */,
+				D05FDA88035E4FF092B124F8 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +110,7 @@
 				DBB7894C1829D9B3000534F4 /* CoreGraphics.framework */,
 				DBB7894E1829D9B3000534F4 /* UIKit.framework */,
 				DBB789631829D9B3000534F4 /* XCTest.framework */,
+				39A4552F27EE43D5B99C11EB /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,12 +118,12 @@
 		DBB789501829D9B3000534F4 /* CryptoWallet */ = {
 			isa = PBXGroup;
 			children = (
+				DBFBCBFE182C86A700A1C760 /* Controllers */,
+				DBFBCBFB182C867800A1C760 /* Storyboards */,
 				DBB789591829D9B3000534F4 /* AppDelegate.h */,
 				DBB7895A1829D9B3000534F4 /* AppDelegate.m */,
 				DBB7895C1829D9B3000534F4 /* Images.xcassets */,
-				DBB7897C1829DC29000534F4 /* Storyboards */,
 				DBB789511829D9B3000534F4 /* Supporting Files */,
-				DBB7897F1829E19B000534F4 /* Controllers */,
 			);
 			path = CryptoWallet;
 			sourceTree = "<group>";
@@ -151,19 +157,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DBB7897C1829DC29000534F4 /* Storyboards */ = {
+		DBFBCBFB182C867800A1C760 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				DBB7897D1829DC59000534F4 /* MainStoryboard.storyboard */,
+				DBFBCBFC182C869F00A1C760 /* MainStoryboard.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
 		};
-		DBB7897F1829E19B000534F4 /* Controllers */ = {
+		DBFBCBFE182C86A700A1C760 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DBB789801829E1DE000534F4 /* LoginController.h */,
-				DBB789811829E1DE000534F4 /* LoginController.m */,
+				DBFBCBFF182C86BC00A1C760 /* LoginController.h */,
+				DBFBCC00182C86BC00A1C760 /* LoginController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -175,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBB789731829D9B3000534F4 /* Build configuration list for PBXNativeTarget "CryptoWallet" */;
 			buildPhases = (
+				105D62C2BEC1414B8CFF68A0 /* Check Pods Manifest.lock */,
 				DBB789431829D9B3000534F4 /* Sources */,
 				DBB789441829D9B3000534F4 /* Frameworks */,
 				DBB789451829D9B3000534F4 /* Resources */,
+				EAE89B29F9F84DC6BE8C790E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,7 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBB7897E1829DC59000534F4 /* MainStoryboard.storyboard in Resources */,
+				DBFBCBFD182C869F00A1C760 /* MainStoryboard.storyboard in Resources */,
 				DBB789551829D9B3000534F4 /* InfoPlist.strings in Resources */,
 				DBB7895D1829D9B3000534F4 /* Images.xcassets in Resources */,
 			);
@@ -259,6 +267,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		105D62C2BEC1414B8CFF68A0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAE89B29F9F84DC6BE8C790E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DBB789431829D9B3000534F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -266,7 +307,7 @@
 			files = (
 				DBB7895B1829D9B3000534F4 /* AppDelegate.m in Sources */,
 				DBB789571829D9B3000534F4 /* main.m in Sources */,
-				DBB789821829E1DE000534F4 /* LoginController.m in Sources */,
+				DBFBCC01182C86BC00A1C760 /* LoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +423,7 @@
 		};
 		DBB789741829D9B3000534F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D05FDA88035E4FF092B124F8 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -395,6 +437,7 @@
 		};
 		DBB789751829D9B3000534F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D05FDA88035E4FF092B124F8 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

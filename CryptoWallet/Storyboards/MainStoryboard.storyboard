@@ -64,6 +64,7 @@
                             <constraint firstAttribute="centerX" secondItem="9dm-Sq-xzB" secondAttribute="centerX" id="7EW-gL-yb8"/>
                             <constraint firstItem="9dm-Sq-xzB" firstAttribute="top" secondItem="cs7-5N-Glq" secondAttribute="bottom" constant="40" id="8Ao-pz-OqE"/>
                             <constraint firstItem="mel-kR-ZVa" firstAttribute="height" secondItem="9dm-Sq-xzB" secondAttribute="height" id="CRV-lK-0bk"/>
+                            <constraint firstAttribute="centerY" secondItem="9dm-Sq-xzB" secondAttribute="centerY" constant="34" id="SVc-KQ-ckB"/>
                             <constraint firstAttribute="centerX" secondItem="cs7-5N-Glq" secondAttribute="centerX" id="SbQ-g5-YXp"/>
                             <constraint firstAttribute="centerX" secondItem="mel-kR-ZVa" secondAttribute="centerX" constant="1.5" id="kkW-LU-gAC"/>
                             <constraint firstAttribute="centerY" secondItem="cs7-5N-Glq" secondAttribute="centerY" constant="100" id="n9A-Kk-jZ5"/>
@@ -98,10 +99,20 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Facebook" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bg4-Nj-X1G">
+                                <rect key="frame" x="47" y="240" width="77" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="weG-9x-MGH" secondAttribute="centerX" id="Obd-Gv-Ye5"/>
+                            <constraint firstAttribute="centerY" secondItem="bg4-Nj-X1G" secondAttribute="centerY" constant="34" id="Qw2-BS-7rN"/>
+                            <constraint firstAttribute="centerY" secondItem="bg4-Nj-X1G" secondAttribute="centerY" constant="33.5" id="U8I-4P-5fA"/>
+                            <constraint firstAttribute="centerX" secondItem="bg4-Nj-X1G" secondAttribute="centerX" constant="75" id="V3z-4C-IQi"/>
                             <constraint firstAttribute="centerY" secondItem="weG-9x-MGH" secondAttribute="centerY" constant="100" id="tHL-Or-JA1"/>
                         </constraints>
                     </view>
