@@ -19,6 +19,8 @@
 		DBB789661829D9B3000534F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB7894E1829D9B3000534F4 /* UIKit.framework */; };
 		DBB7896E1829D9B3000534F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBB7896C1829D9B3000534F4 /* InfoPlist.strings */; };
 		DBB789701829D9B3000534F4 /* CryptoWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB7896F1829D9B3000534F4 /* CryptoWalletTests.m */; };
+		DBB7897E1829DC59000534F4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB7897D1829DC59000534F4 /* MainStoryboard.storyboard */; };
+		DBB789821829E1DE000534F4 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB789811829E1DE000534F4 /* LoginController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		DBB7896B1829D9B3000534F4 /* CryptoWalletTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CryptoWalletTests-Info.plist"; sourceTree = "<group>"; };
 		DBB7896D1829D9B3000534F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DBB7896F1829D9B3000534F4 /* CryptoWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptoWalletTests.m; sourceTree = "<group>"; };
+		DBB7897D1829DC59000534F4 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = Storyboards/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DBB789801829E1DE000534F4 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginController.h; path = Controllers/LoginController.h; sourceTree = "<group>"; };
+		DBB789811829E1DE000534F4 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginController.m; path = Controllers/LoginController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +115,9 @@
 				DBB789591829D9B3000534F4 /* AppDelegate.h */,
 				DBB7895A1829D9B3000534F4 /* AppDelegate.m */,
 				DBB7895C1829D9B3000534F4 /* Images.xcassets */,
+				DBB7897C1829DC29000534F4 /* Storyboards */,
 				DBB789511829D9B3000534F4 /* Supporting Files */,
+				DBB7897F1829E19B000534F4 /* Controllers */,
 			);
 			path = CryptoWallet;
 			sourceTree = "<group>";
@@ -142,6 +149,23 @@
 				DBB7896C1829D9B3000534F4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBB7897C1829DC29000534F4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DBB7897D1829DC59000534F4 /* MainStoryboard.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		DBB7897F1829E19B000534F4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DBB789801829E1DE000534F4 /* LoginController.h */,
+				DBB789811829E1DE000534F4 /* LoginController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB7897E1829DC59000534F4 /* MainStoryboard.storyboard in Resources */,
 				DBB789551829D9B3000534F4 /* InfoPlist.strings in Resources */,
 				DBB7895D1829D9B3000534F4 /* Images.xcassets in Resources */,
 			);
@@ -241,6 +266,7 @@
 			files = (
 				DBB7895B1829D9B3000534F4 /* AppDelegate.m in Sources */,
 				DBB789571829D9B3000534F4 /* main.m in Sources */,
+				DBB789821829E1DE000534F4 /* LoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +467,7 @@
 				DBB789751829D9B3000534F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBB789761829D9B3000534F4 /* Build configuration list for PBXNativeTarget "CryptoWalletTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +476,7 @@
 				DBB789781829D9B3000534F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
