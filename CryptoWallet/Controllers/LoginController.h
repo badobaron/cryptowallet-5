@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LoginController : UIViewController <UIGestureRecognizerDelegate>
+@interface LoginController : UIViewController <UIGestureRecognizerDelegate, UITextFieldDelegate>
+
 
 @end

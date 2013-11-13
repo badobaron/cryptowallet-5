@@ -28,6 +28,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.usernameField.delegate = self;
+    self.passwordField.delegate = self;
 
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(viewTapped)];
     tapGesture.delegate = self;
@@ -43,18 +45,58 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)loginPressed:(id)sender
 {
-
+    NSLog(@"Login Pressed");
 }
 
 - (IBAction)signupPressed:(id)sender
 {
-
+    [self performSegueWithIdentifier:@"goToSignupSegue" sender:self];
 }
 
+- (void)textFieldDidBeginEditing:(UITextField *)textField
+{
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:0.3];
+
+    CGRect rect = self.view.frame;
+    rect.origin.y += 0;
+    rect.size.height -= 50;
+    self.view.frame = rect;
+
+    [UIView commitAnimations];
+}
+- (void)textFieldDidEndEditing:(UITextField *)textField
+{
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:0.3];
+
+    CGRect rect = self.view.frame;
+    rect.origin.y -= 0;
+    rect.size.height += 50;
+    self.view.frame = rect;
+
+    [UIView commitAnimations];
+}
+
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+
+    if ([self.usernameField isFirstResponder])
+    {
+        [self.usernameField resignFirstResponder];
+        [self.passwordField becomeFirstResponder];
+    }
+    else if ([self.passwordField isFirstResponder])
+    {
+        [self.passwordField resignFirstResponder];
+        [self loginPressed:nil];
+    }
+    return false;
+}
 
 @end
